@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav><!--solamente se aplica una vez por html y hace referencia a la 
+            barra  de navegacion principal de mi sitio-->
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./jugadores.html">jugadores</a></li>
+                <li><a href="#">Equipos</a></li>
+                <li><a href="./ligaArg.html">liga Argentina</a></li>     
+            </ul>
+        </nav>             
+    </header>
+    <main>
+        <h1>Equipos</h1>
+        <label for="equipos"></label>                                                 <!--BUSCAR EQUIPO-->
+        <input type="text" id="equipos" name="equipos" required placeholder= "Buscar un equipo...">
+        <select name="equiposConferencia" id="equiposConferencia">                   <!--OPCIONES DEPLEGABLES FILTRAR POR CONFERENCIA-->
+            <option value="">Conferencia Este</option>
+            <option value="">Conferencia Oeste</option>
+        </select>
+        <select name="equiposDivision" id="equiposDivision">                          <!--OPCIONES DESPLEGABLES FILTRAR POR DIVISION-->
+            <option value="">Division Atlántico</option>
+            <option value="">Division Central</option>
+            <option value="">Division Sudeste</option>
+            <option value="">Division Sudoeste</option>
+            <option value="">Division Noroeste</option>
+            <option value="">Division Pacífico</option>
+        </select>
+    </main>    
+</body>
+</html>
