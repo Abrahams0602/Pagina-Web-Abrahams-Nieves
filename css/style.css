@@ -1,0 +1,41 @@
+header nav ul a{
+    color: rgb(248, 252, 255);
+}
+header{
+    background-color: rgb(17, 0, 0);
+}
+header{
+    color: rgb(248, 248, 248);
+}
+section{
+    background-color: rgb(17, 0, 0);
+
+}
+.sectionTitulo{
+    color: rgb(248, 252, 255);
+}
+
+.sectionSubtitulo{
+    color: rgb(248, 251, 253);
+    background-color: rgb(255, 101, 0);
+}
+
+.sectionHighlights{
+    color: rgb(248, 252, 255);
+    background-color: rgb(255, 101, 0);
+}
+
+footer{
+    background-color: rgb(17, 0, 0);
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+}
+
+footer li{
+    color: rgb(224, 234, 243);
+}
+footer li a{
+    color: rgb(224, 234, 243);
+}
